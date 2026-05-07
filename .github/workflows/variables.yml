@@ -3,7 +3,8 @@ name: Workflow Demo
 on: 
   push
 
-
+env:
+  ACCESS_ID: ${{ vars.ACCESS_ID }}
 
 jobs:
   build:
